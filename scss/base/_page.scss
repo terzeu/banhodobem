@@ -77,3 +77,9 @@ img::-moz-selection {
 .border-large {
   text-shadow: 8px 0 $secondary, 0 3px $secondary, 1px 0 $secondary, 0 -4px $secondary
 }
+
+.video-frame {
+  max-width: 100%;
+  height: 300px;
+  width: 500px; 
+}

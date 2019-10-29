@@ -90,6 +90,12 @@ img::-moz-selection {
   text-shadow: 8px 0 #133c71, 0 3px #133c71, 1px 0 #133c71, 0 -4px #133c71;
 }
 
+.video-frame {
+  max-width: 100%;
+  height: 300px;
+  width: 500px;
+}
+
 .btn {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
@@ -237,6 +243,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio .portfolio-item {
+  text-align: center;
   right: 0;
   margin: 0 0 15px;
 }
